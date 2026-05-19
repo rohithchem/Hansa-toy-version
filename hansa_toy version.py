@@ -118,7 +118,7 @@ df.columns = ["position", "wild_type", "mutation", "diff", "score", "acess", "st
 
 #took the output, and converted into a numeric vector, therefore representing each vector position usign numeric values
 
-
+#x is the output of the previous command, i am entering it here to convert it into a numpy array and proceed further
 x = [
 [0,0,1.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0],  
 [0.2,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4, 0.2, -4, 0, 0],  
